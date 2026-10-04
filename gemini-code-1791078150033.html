@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSP Karunia Adhi Sejahtera Pasadena | Pinjaman Jaminan ATM Gaji</title>
+    <meta name="description" content="Pinjaman Dana Cepat Jaminan ATM Gaji Plafond s/d 15 Juta. KSP Karunia Adhi Sejahtera Cabang Pasadena. Hubungi Edwin via WA & FB.">
+    <meta name="keywords" content="KSP Karunia Adhi Sejahtera, Pinjaman ATM Gaji, Koperasi Semarang, Pinjaman Karyawan, Take Over Koperasi">
+    <meta property="og:title" content="KSP Karunia Adhi Sejahtera - Pinjaman Jaminan ATM Gaji">
+    <meta property="og:description" content="Plafond s/d 15 Juta Rupiah. Syarat dijemput di rumah, proses cepat & transparan. Hubungi Edwin">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            800: '#0b2265',
+                            900: '#071642',
+                        },
+                        brand: {
+                            blue: '#0d6efd',
+                            cyan: '#00a8cc',
+                            green: '#25d366',
+                            greenHover: '#20bd5a',
+                            gold: '#f59e0b',
+                            fb: '#1877f2'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #071642 0%, #0b2265 50%, #0a4b94 100%);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.96);
+            backdrop-filter: blur(12px);
+        }
+        .pulse-btn {
+            animation: pulse 2.2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6); }
+            70% { transform: scale(1.02); box-shadow: 0 0 0 12px rgba(37, 211, 102, 0); }
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+        .btn-interactive {
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .btn-interactive:hover {
+            transform: translateY(-2px);
+        }
+        .btn-interactive:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="bg-amber-500 text-slate-900 text-xs sm:text-sm font-bold py-2.5 px-4 text-center flex items-center justify-center gap-2 shadow-inner">
+        <i class="fa-solid fa-shield-halved text-slate-900"></i>
+        <span>HIMBAUAN: Proses Pengajuan Pinjaman TIDAK Dipungut Biaya Apapun! Bebas Biaya Depan.</span>
+    </div>
+
+    <!-- NAVBAR / HEADER -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo & Title -->
+                <a href="#" class="inline-flex items-center gap-3 group py-1 focus:outline-none">
+                    <!-- Logo Image -->
+                    <div class="flex-shrink-0">
+                        <img src="logo.png" 
+                             alt="Logo KSP Karunia Adhi Sejahtera" 
+                             class="h-11 sm:h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-200"
+                             onerror="this.src='https://lh3.googleusercontent.com/d/1925J_ur9PmWMsAU_ujmXCURkQLaYwO1L'; this.onerror=function(){this.src='https://placehold.co/120x120/0b2265/ffffff?text=KSP+KAS';}">
+                    </div>
+
+                    <!-- Text Brand Container -->
+                    <div class="flex flex-col justify-center border-l-2 border-slate-200 pl-3">
+                        <span class="font-extrabold text-slate-900 group-hover:text-blue-900 text-sm sm:text-base leading-snug tracking-tight transition-colors">
+                            KSP KARUNIA ADHI SEJAHTERA
+                        </span>
+                        <span class="text-[11px] sm:text-xs text-slate-500 font-medium tracking-wide">
+                            Cabang Pasadena <span class="mx-0.5 text-slate-300">•</span> Simpan Pinjam Transparan
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Desktop Menu -->
+                <div class="hidden lg:flex items-center space-x-6 text-sm font-semibold text-slate-600">
+                    <a href="#keunggulan" class="hover:text-navy-800 transition">Keunggulan</a>
+                    <a href="#pinjaman" class="hover:text-navy-800 transition">Pinjaman ATM Gaji</a>
+                    <a href="#anggota" class="hover:text-navy-800 transition">Keanggotaan</a>
+                    <a href="#testimoni" class="hover:text-navy-800 transition">Testimoni</a>
+                </div>
+
+                <!-- Desktop CTA Buttons -->
+                <div class="hidden md:flex items-center gap-3">
+                    <a href="https://www.facebook.com/share/1BsfjJya1Z/" 
+                       target="_blank" rel="noopener noreferrer"
+                       title="Profil Facebook Edwin"
+                       class="btn-interactive h-11 w-11 bg-blue-50 hover:bg-blue-100 text-brand-fb rounded-xl border border-blue-200 flex items-center justify-center shadow-sm">
+                        <i class="fa-brands fa-facebook text-xl"></i>
+                    </a>
+                    <a href="https://wa.me/6288226734985?text=Halo%20Mas%20Edwin,%20saya%20ingin%20konsultasi%20layanan%20KSP%20Karunia%20Adhi%20Sejahtera" 
+                       target="_blank" rel="noopener noreferrer"
+                       class="btn-interactive h-11 bg-brand-green hover:bg-brand-greenHover text-white font-bold text-sm px-5 rounded-xl shadow-md flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                        <span>Konsultasi Gratis</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="lg:hidden text-slate-700 p-2.5 rounded-xl hover:bg-slate-100 focus:outline-none" aria-label="Menu Mobile">
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-3">
+            <a href="#keunggulan" class="block py-2 text-slate-700 font-semibold border-b border-slate-100">Keunggulan</a>
+            <a href="#pinjaman" class="block py-2 text-slate-700 font-semibold border-b border-slate-100">Pinjaman ATM Gaji</a>
+            <a href="#anggota" class="block py-2 text-slate-700 font-semibold border-b border-slate-100">Keanggotaan Koperasi</a>
+            <a href="#testimoni" class="block py-2 text-slate-700 font-semibold border-b border-slate-100">Testimoni</a>
+            <div class="pt-2 flex flex-col gap-2.5">
+                <a href="https://wa.me/6288226734985?text=Halo%20Mas%20Edwin,%20saya%20ingin%20konsultasi%20layanan%20KSP%20Karunia%20Adhi%20Sejahtera" 
+                   target="_blank" rel="noopener noreferrer"
+                   class="btn-interactive w-full h-12 bg-brand-green text-white font-bold rounded-xl flex items-center justify-center gap-2 shadow">
+                    <i class="fa-brands fa-whatsapp text-xl"></i> Chat WhatsApp Edwin
+                </a>
+                <a href="https://www.facebook.com/share/1BsfjJya1Z/" 
+                   target="_blank" rel="noopener noreferrer"
+                   class="btn-interactive w-full h-12 bg-blue-50 text-brand-fb font-bold rounded-xl flex items-center justify-center gap-2 border border-blue-200 shadow-sm">
+                    <i class="fa-brands fa-facebook text-xl"></i> Profil Facebook Edwin
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="gradient-bg text-white relative overflow-hidden py-12 lg:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                
+                <!-- Hero Text & Badges -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-cyan-300 text-xs sm:text-sm font-semibold">
+                        <i class="fa-solid fa-bolt text-amber-400"></i> KSP Karunia Adhi Sejahtera - Cabang Pasadena
+                    </div>
+                    
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-tight">
+                        BUTUH DANA CEPAT? <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-cyan-300 to-white">
+                            JAMINAN ATM GAJI
+                        </span>
+                    </h1>
+
+                    <div class="inline-block bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-4 sm:p-5 w-full sm:w-auto">
+                        <p class="text-2xl sm:text-3xl font-black text-amber-300">
+                            Plafond s/d 15 Juta Rupiah
+                        </p>
+                        <p class="text-sm sm:text-base text-slate-200 mt-1 font-medium">
+                            Proses Cepat • Syarat Mudah • Bunga Murah & Transparan
+                        </p>
+                    </div>
+
+                    <!-- 3 Core Taglines -->
+                    <div class="grid grid-cols-3 gap-2.5 sm:gap-4 pt-2 text-center text-xs sm:text-sm font-semibold">
+                        <div class="bg-white/5 border border-white/10 rounded-xl p-3 flex flex-col items-center justify-center">
+                            <i class="fa-solid fa-hand-holding-dollar text-cyan-400 text-xl sm:text-2xl mb-1.5"></i>
+                            <span>Simpan Pinjam</span>
+                        </div>
+                        <div class="bg-white/5 border border-white/10 rounded-xl p-3 flex flex-col items-center justify-center">
+                            <i class="fa-solid fa-truck-ramp-box text-amber-400 text-xl sm:text-2xl mb-1.5"></i>
+                            <span>Jemput Syarat</span>
+                        </div>
+                        <div class="bg-white/5 border border-white/10 rounded-xl p-3 flex flex-col items-center justify-center">
+                            <i class="fa-solid fa-file-contract text-emerald-400 text-xl sm:text-2xl mb-1.5"></i>
+                            <span>Tanpa Biaya Depan</span>
+                        </div>
+                    </div>
+
+                    <!-- Hero Main Action Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-4 justify-center lg:justify-start">
+                        <a href="#pinjaman-form" 
+                           class="btn-interactive pulse-btn h-14 bg-brand-green hover:bg-brand-greenHover text-white font-extrabold text-sm sm:text-base px-6 sm:px-8 rounded-xl shadow-xl flex items-center justify-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            <span>Ajukan Pinjaman ATM Gaji</span>
+                        </a>
+                        <a href="#anggota-form" 
+                           class="btn-interactive h-14 bg-white/10 hover:bg-white/20 text-white border border-white/30 font-bold text-sm sm:text-base px-6 sm:px-8 rounded-xl shadow-md flex items-center justify-center gap-2.5">
+                            <i class="fa-solid fa-users text-amber-300 text-lg"></i>
+                            <span>Daftar Anggota Koperasi</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Contact Card -->
+                <div class="lg:col-span-5">
+                    <div class="glass-card rounded-3xl p-6 sm:p-8 text-slate-800 shadow-2xl border border-white/50 relative">
+                        <div class="absolute -top-3 right-6 bg-amber-500 text-slate-900 font-extrabold text-xs px-3 py-1 rounded-full shadow-md border-2 border-white uppercase tracking-wider">
+                            Respon Cepat
+                        </div>
+
+                        <div class="flex items-center gap-4 mb-5">
+                            <!-- Profil Image Edwin dari Google Drive -->
+                            <div class="w-16 h-16 rounded-2xl overflow-hidden shadow-md border-2 border-cyan-400 flex-shrink-0 bg-navy-800">
+                                <img src="https://lh3.googleusercontent.com/d/1XOfZAKl2VLPuK4kKxB1--GNqdEGCN78v" 
+                                     alt="Foto Profil Edwin" 
+                                     class="w-full h-full object-cover"
+                                     onerror="this.src='https://drive.google.com/uc?export=view&id=1XOfZAKl2VLPuK4kKxB1--GNqdEGCN78v';">
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-extrabold text-navy-800">EDWIN</h3>
+                                <p class="text-xs text-slate-500 font-semibold">Konsultan Marketing KSP Resmi</p>
+                                <a href="https://www.facebook.com/share/1BsfjJya1Z/" 
+                                   target="_blank" rel="noopener noreferrer"
+                                   class="inline-flex items-center gap-1.5 text-xs font-bold text-brand-fb hover:underline mt-1">
+                                    <i class="fa-brands fa-facebook text-sm"></i> Profil FB: /edwin
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="space-y-2.5 bg-slate-50/90 p-4 rounded-2xl border border-slate-200/80 text-xs sm:text-sm font-medium text-slate-700 mb-6">
+                            <div class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-emerald-500 text-base mt-0.5 flex-shrink-0"></i>
+                                <span>Syarat Mudah, Proses Cepat dan PASTI MURAH !</span>
+                            </div>
+                            <div class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-emerald-500 text-base mt-0.5 flex-shrink-0"></i>
+                                <span>Petugas siap jemput berkas di rumah/kantor</span>
+                            </div>
+                            <div class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-emerald-500 text-base mt-0.5 flex-shrink-0"></i>
+                                <span>Pencairan langsung tunai / transfer</span>
+                            </div>
+                            <div class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-emerald-500 text-base mt-0.5 flex-shrink-0"></i>
+                                <span>Bisa Take Over pinjaman dari koperasi lain</span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <a href="https://wa.me/6288226734985?text=Halo%20Mas%20Edwin,%20saya%20ingin%20konsultasi%20pinjaman%20KSP%20Karunia%20Adhi%20Sejahtera" 
+                               target="_blank" rel="noopener noreferrer"
+                               class="btn-interactive h-12 bg-navy-800 hover:bg-navy-900 text-white font-bold rounded-xl flex items-center justify-center shadow-md text-xs sm:text-sm gap-2">
+                                <i class="fa-brands fa-whatsapp text-emerald-400 text-lg"></i>
+                                <span>Konsultasi Gratis</span>
+                            </a>
+                            <a href="https://www.facebook.com/share/1BsfjJya1Z/" 
+                               target="_blank" rel="noopener noreferrer"
+                               class="btn-interactive h-12 bg-brand-fb hover:bg-blue-700 text-white font-bold rounded-xl flex items-center justify-center shadow-md text-xs sm:text-sm gap-2">
+                                <i class="fa-brands fa-facebook text-lg"></i>
+                                <span>Kunjungi FB</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROMO FEATURES GRID -->
+    <section id="keunggulan" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-brand-blue font-bold text-xs uppercase tracking-wider bg-blue-50 px-3 py-1 rounded-full border border-blue-100">Layanan Unggulan Kami</span>
+                <h2 class="text-2xl sm:text-4xl font-extrabold text-navy-800 mt-3">Mengapa Memilih KSP Karunia Adhi Sejahtera?</h2>
+                <p class="text-slate-600 text-sm sm:text-base mt-2">Kami hadir memberikan solusi keuangan yang fleksibel, aman, transparan, dan memprioritaskan kenyamanan Anda.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Feature 1 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-blue-400 hover:shadow-lg transition group">
+                    <div class="w-14 h-14 bg-blue-100 text-navy-800 rounded-2xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-building-user"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-navy-800 mb-2">Pencairan Fleksibel</h3>
+                    <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                        Pencairan dana pinjaman dapat dilakukan langsung di <strong>Kantor, Rumah, atau Tempat Kerja</strong> Anda secara cepat.
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-blue-400 hover:shadow-lg transition group">
+                    <div class="w-14 h-14 bg-amber-100 text-amber-700 rounded-2xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-house-chimney-user"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-navy-800 mb-2">Syarat Dijemput di Rumah</h3>
+                    <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                        Tidak perlu repot datang ke kantor,Kami siap <strong>menjemput kelengkapan berkas</strong> langsung ke rumah.
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-blue-400 hover:shadow-lg transition group">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-700 rounded-2xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-hand-holding-hand"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-navy-800 mb-2">Gaji Diantar</h3>
+                    <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                        Layanan pengantaran sisa gaji yang aman dan nyaman sesuai kesepakatan secara tepat waktu tanpa rasa cemas.
+                    </p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-blue-400 hover:shadow-lg transition group">
+                    <div class="w-14 h-14 bg-purple-100 text-purple-700 rounded-2xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-navy-800 mb-2">Take Over Koperasi Lain</h3>
+                    <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                        Punya pinjaman berjalan di tempat/koperasi lain? Kami bantu pelunasan dan <strong>Take Over</strong> dengan bunga lebih bersahabat.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 1: PINJAMAN JAMINAN ATM GAJI -->
+    <section id="pinjaman" class="py-16 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-8 items-center">
+                
+                <div class="lg:col-span-6 space-y-5">
+                    <span class="bg-blue-100 text-navy-800 font-bold text-xs px-3 py-1 rounded-full uppercase border border-blue-200">Produk Pinjaman Cepat</span>
+                    <h2 class="text-2xl sm:text-4xl font-black text-navy-800 leading-tight">
+                        Pengajuan Pinjaman Jaminan ATM Gaji
+                    </h2>
+                    <p class="text-slate-600 text-sm sm:text-base">
+                        Khusus untuk Anda karyawan swasta/pabrik/PNS yang memiliki sistem gaji via rekening ATM. Pengajuan fleksibel dengan Plafond hingga <strong>15 JUTA RUPIAH</strong>.
+                    </p>
+
+                    <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-3.5 text-xs sm:text-sm">
+                        <div class="flex items-center gap-3">
+                            <span class="w-8 h-8 rounded-full bg-blue-50 text-brand-blue font-bold flex items-center justify-center flex-shrink-0 border border-blue-200">1</span>
+                            <span class="font-semibold text-slate-700">Isi formulir singkat WhatsApp di samping</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="w-8 h-8 rounded-full bg-blue-50 text-brand-blue font-bold flex items-center justify-center flex-shrink-0 border border-blue-200">2</span>
+                            <span class="font-semibold text-slate-700">Edwin akan mebalas dan memverifikasinya</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="w-8 h-8 rounded-full bg-blue-50 text-brand-blue font-bold flex items-center justify-center flex-shrink-0 border border-blue-200">3</span>
+                            <span class="font-semibold text-slate-700">Proses Cepat dan Mudah plus bisa dibantu dalam prosesnya</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form Card Pinjaman ATM Gaji -->
+                <div id="pinjaman-form" class="lg:col-span-6 bg-white p-6 sm:p-8 rounded-3xl shadow-xl border border-slate-200">
+                    <div class="flex items-center gap-3.5 mb-6 pb-4 border-b border-slate-100">
+                        <div class="w-11 h-11 rounded-2xl bg-brand-green text-white flex items-center justify-center text-xl flex-shrink-0 shadow-sm">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-extrabold text-lg text-navy-800">Form Pengajuan Pinjaman ATM GAJI</h3>
+                            <p class="text-xs text-slate-500">Otomatis terhubung ke WA Mas Edwin (0882-2673-4985)</p>
+                        </div>
+                    </div>
+
+                    <form id="form-pinjaman" onsubmit="sendWAPinjaman(event)" class="space-y-4">
+                        <div>
+                            <label for="p_nama" class="block text-xs font-bold text-slate-700 mb-1.5">Nama Lengkap *</label>
+                            <input type="text" id="p_nama" required placeholder="Contoh: Budi Santoso" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:outline-none text-sm">
+                        </div>
+                        
+                        <div>
+                            <label for="p_alamat" class="block text-xs font-bold text-slate-700 mb-1.5">Alamat Tinggal / Domisili *</label>
+                            <input type="text" id="p_alamat" required placeholder="Contoh: Kalipancur, Semarang" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:outline-none text-sm">
+                        </div>
+
+                        <div>
+                            <label for="p_kerja" class="block text-xs font-bold text-slate-700 mb-1.5">Bekerja Dimana / Tempat Kerja *</label>
+                            <input type="text" id="p_kerja" required placeholder="Contoh: Karyawan Swasta / Pabrik / PNS" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:outline-none text-sm">
+                        </div>
+
+                        <div>
+                            <label for="p_sumber" class="block text-xs font-bold text-slate-700 mb-1.5">Tahu Informasi Dari mana? *</label>
+                            <select id="p_sumber" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:outline-none text-sm bg-white">
+                                <option value="Website KSP Pasadena">Website Official KSP Pasadena</option>
+                                <option value="Facebook Edwin">Facebook Edwin</option>
+                                <option value="Pencarian Google">Pencarian Google</option>
+                                <option value="Brosur / Banner">Brosur / Banner</option>
+                                <option value="Rekomendasi Teman">Rekomendasi Teman / Anggota</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" 
+                                class="btn-interactive w-full h-13 bg-brand-green hover:bg-brand-greenHover text-white font-extrabold rounded-xl shadow-md flex items-center justify-center gap-2.5 text-base mt-2">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            <span>Kirim Pengajuan via WhatsApp</span>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: KEANGGOTAAN KOPERASI -->
+    <section id="anggota" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-8 items-center">
+                
+                <!-- Form Card Keanggotaan -->
+                <div id="anggota-form" class="lg:col-span-6 bg-slate-50 p-6 sm:p-8 rounded-3xl shadow-xl border border-slate-200 order-2 lg:order-1">
+                    <div class="flex items-center gap-3.5 mb-6 pb-4 border-b border-slate-200">
+                        <div class="w-11 h-11 rounded-2xl bg-amber-500 text-white flex items-center justify-center text-xl flex-shrink-0 shadow-sm">
+                            <i class="fa-solid fa-id-card"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-extrabold text-lg text-navy-800">Pendaftaran Anggota Koperasi</h3>
+                            <p class="text-xs text-slate-500">Gabung menjadi Anggota & Dapatkan Banyak Keuntungan</p>
+                        </div>
+                    </div>
+
+                    <form id="form-anggota" onsubmit="sendWAAnggota(event)" class="space-y-4">
+                        <div>
+                            <label for="a_nama" class="block text-xs font-bold text-slate-700 mb-1.5">Nama Lengkap *</label>
+                            <input type="text" id="a_nama" required placeholder="Contoh: Siti Rahmawati" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-amber-500 focus:outline-none text-sm bg-white">
+                        </div>
+                        
+                        <div>
+                            <label for="a_alamat" class="block text-xs font-bold text-slate-700 mb-1.5">Alamat Tinggal *</label>
+                            <input type="text" id="a_alamat" required placeholder="Contoh: Ngaliyan, Semarang" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-amber-500 focus:outline-none text-sm bg-white">
+                        </div>
+
+                        <div>
+                            <label for="a_kerja" class="block text-xs font-bold text-slate-700 mb-1.5">Bekerja / Usaha Di *</label>
+                            <input type="text" id="a_kerja" required placeholder="Contoh: Wiraswasta / Karyawan" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-amber-500 focus:outline-none text-sm bg-white">
+                        </div>
+
+                        <div class="p-3 bg-amber-50 rounded-xl border border-amber-200 text-xs text-amber-900 flex items-start gap-2">
+                            <i class="fa-solid fa-circle-info text-amber-600 text-sm mt-0.5 flex-shrink-0"></i>
+                            <span>Pesan otomatis akan dikirim ke WA Mas Edwin dengan konfirmasi: <strong>"Saya ingin menjadi anggota koperasi."</strong></span>
+                        </div>
+
+                        <button type="submit" 
+                                class="btn-interactive w-full h-13 bg-amber-500 hover:bg-amber-600 text-slate-900 font-extrabold rounded-xl shadow-md flex items-center justify-center gap-2.5 text-base mt-2">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            <span>Daftar Anggota via WhatsApp</span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Text Benefits -->
+                <div class="lg:col-span-6 space-y-5 order-1 lg:order-2">
+                    <span class="bg-amber-100 text-amber-800 font-bold text-xs px-3 py-1 rounded-full uppercase border border-amber-200">Program Keanggotaan</span>
+                    <h2 class="text-2xl sm:text-4xl font-black text-navy-800 leading-tight">
+                        Bergabung Menjadi Anggota KSP Karunia Adhi Sejahtera
+                    </h2>
+                    <p class="text-slate-600 text-sm sm:text-base">
+                        Menjadi bagian dari Koperasi Simpan Pinjam Karunia Adhi Sejahtera memberikan kepastian, keamanan simpanan, serta kemudahan akses permodalan usaha maupun pribadi.
+                    </p>
+
+                    <div class="space-y-3">
+                        <div class="flex items-start gap-3.5 bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+                            <i class="fa-solid fa-piggy-bank text-amber-500 text-2xl mt-0.5 flex-shrink-0"></i>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-sm">Simpanan Aman & Bunga Kompetitif</h4>
+                                <p class="text-xs text-slate-500 mt-0.5">Program simpanan berjangka & harian dengan imbal hasil yang menguntungkan.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3.5 bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+                            <i class="fa-solid fa-chart-line text-emerald-500 text-2xl mt-0.5 flex-shrink-0"></i>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-sm">Benefit Ajak Teman</h4>
+                                <p class="text-xs text-slate-500 mt-0.5">Dapatkan keuntungan dari mengajak teman untuk menjadi Anggota Koperasi atau Mengajukan Pinjaman</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3.5 bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+                            <i class="fa-solid fa-handshake-angle text-blue-500 text-2xl mt-0.5 flex-shrink-0"></i>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-sm">Prioritas Layanan Pinjaman</h4>
+                                <p class="text-xs text-slate-500 mt-0.5">Proses pengajuan fasilitas pinjaman lebih cepat dengan plafon lebih tinggi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimoni" class="py-16 bg-slate-50 border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-brand-blue font-bold text-xs uppercase tracking-wider bg-blue-50 px-3 py-1 rounded-full border border-blue-100">Kisah Sukses & Kepercayaan</span>
+                <h2 class="text-2xl sm:text-4xl font-extrabold text-navy-800 mt-3">Testimoni Anggota & Nasabah KSP</h2>
+                <p class="text-slate-600 text-sm sm:text-base mt-2">Pengalaman nyata masyarakat yang telah terbantu oleh layanan KSP Karunia Adhi Sejahtera Cabang Pasadena.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Testi 1 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 space-y-4 flex flex-col justify-between">
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <div class="flex text-amber-400 gap-1 text-sm">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-emerald-50 text-emerald-700 rounded-full border border-emerald-100">Pinjaman ATM Gaji</span>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-700 italic leading-relaxed">
+                            "Prosesnya sangat cepat dan profesional! Mas Edwin langsung datang ke rumah untuk jemput berkas. Siang diproses, sore dana sudah cair. Sangat membantu saat butuh modal mendadak."
+                        </p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
+                        <div>
+                            <div class="font-bold text-sm text-navy-800">Bapak Hendra S.</div>
+                            <div class="text-xs text-slate-500">Karyawan Swasta • Kalipancur, Semarang</div>
+                        </div>
+                        <div class="text-xs font-mono text-slate-400">0812-xxxx-882</div>
+                    </div>
+                </div>
+
+                <!-- Testi 2 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 space-y-4 flex flex-col justify-between">
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <div class="flex text-amber-400 gap-1 text-sm">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-amber-50 text-amber-700 rounded-full border border-amber-100">Anggota Koperasi</span>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-700 italic leading-relaxed">
+                            "Sudah 2 tahun menjadi anggota KSP Karunia Adhi Sejahtera. Simpanan aman, pembagian SHU transparan tiap tahun. Pelayanan ramah dan informatif!"
+                        </p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
+                        <div>
+                            <div class="font-bold text-sm text-navy-800">Ibu Ratna W.</div>
+                            <div class="text-xs text-slate-500">PNS / Pegawai Negeri • Ngaliyan</div>
+                        </div>
+                        <div class="text-xs font-mono text-slate-400">0857-xxxx-194</div>
+                    </div>
+                </div>
+
+                <!-- Testi 3 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 space-y-4 flex flex-col justify-between">
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between">
+                            <div class="flex text-amber-400 gap-1 text-sm">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="text-xs font-semibold px-2.5 py-1 bg-purple-50 text-purple-700 rounded-full border border-purple-100">Take Over Koperasi</span>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-700 italic leading-relaxed">
+                            "Sangat bersyukur ada program Take Over. Pinjaman saya di tempat lama dilunasi oleh KSP Karunia Adhi Sejahtera, angsuran sekarang jauh lebih ringan!"
+                        </p>
+                    </div>
+                    <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
+                        <div>
+                            <div class="font-bold text-sm text-navy-800">Mas Agus P.</div>
+                            <div class="text-xs text-slate-500">Karyawan Pabrik • Semarang Barat</div>
+                        </div>
+                        <div class="text-xs font-mono text-slate-400">0882-xxxx-735</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HIMBAUAN KEAMANAN & TRANSPARANSI -->
+    <section class="py-12 bg-amber-500 text-slate-900">
+        <div class="max-w-5xl mx-auto px-4 text-center space-y-4">
+            <div class="w-16 h-16 bg-slate-900 text-amber-400 rounded-2xl flex items-center justify-center text-3xl mx-auto shadow-lg">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+            <h2 class="text-2xl sm:text-3xl font-black">HIMBAUAN PENTING KSP KARUNIA ADHI SEJAHTERA</h2>
+            <p class="text-sm sm:text-base font-semibold max-w-3xl mx-auto leading-relaxed">
+                Berhati-hati terhadap segala bentuk penipuan yang mengatasnamakan Koperasi Simpan Pinjam Karunia Adhi Sejahtera. 
+                <span class="bg-slate-900 text-white px-2.5 py-1 rounded-lg inline-block mt-1 sm:mt-0 font-bold">Proses pengajuan pinjaman TIDAK DIPUNGUT BIAYA APAPUN</span> (Bebas Biaya Proses Pengajuan/Provisi Ilegal).
+            </p>
+        </div>
+    </section>
+
+    <!-- FOOTER LENGKAP -->
+    <footer class="bg-navy-900 text-slate-300 text-xs sm:text-sm pt-14 pb-10 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 border-b border-slate-800 pb-10">
+                
+                <!-- Kolom 1: Profil Singkat -->
+                <div class="lg:col-span-4 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <img src="logo.png" alt="Logo KSP" class="h-10 w-auto" onerror="this.src='https://lh3.googleusercontent.com/d/1925J_ur9PmWMsAU_ujmXCURkQLaYwO1L'; this.onerror=function(){this.src='https://placehold.co/100x100/0b2265/ffffff?text=KSP+KAS';}">
+                        <div>
+                            <h3 class="font-extrabold text-white text-base leading-tight">KSP KARUNIA ADHI SEJAHTERA</h3>
+                            <span class="text-xs text-amber-400 font-medium">Cabang Pasadena - Semarang</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Koperasi Simpan Pinjam terpercaya yang memberikan solusi finansial cepat, transparan, dan aman melalui produk Pinjaman Jaminan ATM Gaji serta layanan keanggotaan koperasi.
+                    </p>
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-950/80 border border-emerald-800/60 text-emerald-400 text-xs font-semibold">
+                        <i class="fa-solid fa-shield-check"></i>
+                        <span>Proses Bebas Biaya Depan</span>
+                    </div>
+                </div>
+
+                <!-- Kolom 2: Navigasi Cepat -->
+                <div class="lg:col-span-2 space-y-3">
+                    <h4 class="font-bold text-white text-sm uppercase tracking-wider border-b border-slate-800 pb-2">Navigasi</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#keunggulan" class="text-slate-400 hover:text-amber-400 transition flex items-center gap-1.5"><i class="fa-solid fa-chevron-right text-[10px] text-amber-500"></i> Keunggulan</a></li>
+                        <li><a href="#pinjaman" class="text-slate-400 hover:text-amber-400 transition flex items-center gap-1.5"><i class="fa-solid fa-chevron-right text-[10px] text-amber-500"></i> Pinjaman ATM Gaji</a></li>
+                        <li><a href="#anggota" class="text-slate-400 hover:text-amber-400 transition flex items-center gap-1.5"><i class="fa-solid fa-chevron-right text-[10px] text-amber-500"></i> Keanggotaan</a></li>
+                        <li><a href="#testimoni" class="text-slate-400 hover:text-amber-400 transition flex items-center gap-1.5"><i class="fa-solid fa-chevron-right text-[10px] text-amber-500"></i> Testimoni</a></li>
+                    </ul>
+                </div>
+
+                <!-- Kolom 3: Lokasi Kantor & Jam Operasional -->
+                <div class="lg:col-span-3 space-y-3">
+                    <h4 class="font-bold text-white text-sm uppercase tracking-wider border-b border-slate-800 pb-2">Lokasi & Jam Kerja</h4>
+                    <div class="space-y-3 text-xs text-slate-300">
+                        <div class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-location-dot text-amber-400 text-base mt-0.5 flex-shrink-0"></i>
+                            <div>
+                                <strong class="block text-white font-semibold mb-0.5">Alamat Kantor Cabang:</strong>
+                                Ruko Candi Prambanan No 1, Jl. Candi Prambanan Raya RT 06 RW II, Kalipancur, Semarang.
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-clock text-cyan-400 text-base mt-0.5 flex-shrink-0"></i>
+                            <div>
+                                <strong class="block text-white font-semibold mb-0.5">Jam Operasional Kantor:</strong>
+                                Senin - Sabtu: 08:00 - 16:30 WIB <br>
+                                <span class="text-[11px] text-slate-400">(Layanan WA & FB Edwin 24 jam)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kolom 4: Kontak Resmi Kantor & Marketing -->
+                <div class="lg:col-span-3 space-y-3">
+                    <h4 class="font-bold text-white text-sm uppercase tracking-wider border-b border-slate-800 pb-2">Kontak Resmi</h4>
+                    <div class="space-y-2.5">
+                        <!-- Tampilan Telepon Kantor Tanpa Tombol Link WA -->
+                        <div class="flex items-center gap-2.5 bg-slate-800/80 border border-slate-700 p-2.5 rounded-xl text-xs text-slate-200">
+                            <i class="fa-solid fa-phone text-blue-400 text-base"></i>
+                            <div>
+                                <div class="text-[10px] text-slate-400">Telepon Kantor:</div>
+                                <div class="font-bold text-white">0897 0032 070</div>
+                            </div>
+                        </div>
+
+                        <div class="pt-1">
+                            <div class="text-[11px] text-slate-400 mb-2 font-medium">Marketing Resmi (Edwin):</div>
+                            <div class="flex flex-col gap-2">
+                                <a href="https://wa.me/6288226734985?text=Halo%20Mas%20Edwin" 
+                                   target="_blank" rel="noopener noreferrer" 
+                                   class="btn-interactive inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold py-2.5 px-3 rounded-xl shadow-sm">
+                                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                                    <span>WhatsApp: 0882-2673-4985</span>
+                                </a>
+                                <a href="https://www.facebook.com/share/1BsfjJya1Z/" 
+                                   target="_blank" rel="noopener noreferrer" 
+                                   class="btn-interactive inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold py-2.5 px-3 rounded-xl shadow-sm">
+                                    <i class="fa-brands fa-facebook text-lg"></i>
+                                    <span>Profil Facebook Edwin</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Copyright Bar -->
+            <div class="flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-slate-500">
+                <p>&copy; 2026 KSP Karunia Adhi Sejahtera - Cabang Pasadena. All rights reserved by KreasiCahNdeso.</p>
+                <div class="flex items-center gap-4">
+                    <a href="https://www.facebook.com/share/1BsfjJya1Z/" target="_blank" rel="noopener noreferrer" class="hover:text-slate-300 transition">Facebook Edwin</a>
+                    <span>•</span>
+                    <a href="https://wa.me/6288226734985" target="_blank" rel="noopener noreferrer" class="hover:text-slate-300 transition">WhatsApp Edwin</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- STICKY FLOATING WHATSAPP BUTTON -->
+    <div class="fixed bottom-5 right-5 z-50">
+        <a href="https://wa.me/6288226734985?text=Halo%20Mas%20Edwin,%20saya%20ingin%20mengajukan%20pinjaman%20Jaminan%20ATM%20Gaji%20KSP%20Karunia%20Adhi%20Sejahtera" 
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Hubungi Edwin via WhatsApp"
+           class="btn-interactive pulse-btn bg-brand-green hover:bg-brand-greenHover text-white p-3.5 sm:px-5 sm:py-3.5 rounded-full shadow-2xl flex items-center gap-2.5 font-bold transition">
+            <i class="fa-brands fa-whatsapp text-2xl"></i>
+            <span class="hidden sm:inline text-sm">Hubungi via WhatsApp</span>
+        </a>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (menuBtn && mobileMenu) {
+            menuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+
+        // WhatsApp Link Generator for Pinjaman Jaminan ATM Gaji
+        function sendWAPinjaman(e) {
+            e.preventDefault();
+            const nama = document.getElementById('p_nama').value.trim();
+            const alamat = document.getElementById('p_alamat').value.trim();
+            const kerja = document.getElementById('p_kerja').value.trim();
+            const sumber = document.getElementById('p_sumber').value;
+
+            const text = `Halo Mas Edwin / KSP Karunia Adhi Sejahtera,\n\nSaya ingin mengajukan *Pinjaman Jaminan ATM GAJI*.\n\n` +
+                         `*Nama:* ${nama}\n` +
+                         `*Alamat:* ${alamat}\n` +
+                         `*Bekerja di:* ${kerja}\n` +
+                         `*Tahu informasi dari:* ${sumber}\n\n` +
+                         `Mohon bantuan informasi persyaratan dan proses selanjutnya. Terima kasih.`;
+
+            const encodedText = encodeURIComponent(text);
+            window.open(`https://wa.me/6288226734985?text=${encodedText}`, '_blank');
+        }
+
+        // WhatsApp Link Generator for Keanggotaan Koperasi
+        function sendWAAnggota(e) {
+            e.preventDefault();
+            const nama = document.getElementById('a_nama').value.trim();
+            const alamat = document.getElementById('a_alamat').value.trim();
+            const kerja = document.getElementById('a_kerja').value.trim();
+
+            const text = `Halo Mas Edwin / KSP Karunia Adhi Sejahtera,\n\nSaya tertarik dan *ingin menjadi anggota* Koperasi Simpan Pinjam Karunia Adhi Sejahtera.\n\n` +
+                         `*Nama:* ${nama}\n` +
+                         `*Alamat:* ${alamat}\n` +
+                         `*Bekerja di:* ${kerja}\n\n` +
+                         `Mohon penjelasan keuntungan dan tata cara pendaftaran anggota. Terima kasih.`;
+
+            const encodedText = encodeURIComponent(text);
+            window.open(`https://wa.me/6288226734985?text=${encodedText}`, '_blank');
+        }
+    </script>
+</body>
+</html>
